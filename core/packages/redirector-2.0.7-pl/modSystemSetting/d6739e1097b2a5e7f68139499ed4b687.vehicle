@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'redirector',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '5bf1cac1a200457f688ac78d7445a8bc',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'd6739e1097b2a5e7f68139499ed4b687',
+  'native_key' => 'redirector.track_uri_updates',
+  'object' => '{"key":"redirector.track_uri_updates","value":false,"xtype":"combo-boolean","namespace":"redirector","area":"Manager","editedon":null}',
+);

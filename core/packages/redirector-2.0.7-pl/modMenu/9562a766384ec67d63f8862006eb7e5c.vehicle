@@ -1,0 +1,62 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'unique_key' => 'text',
+  'related_objects' => 
+  array (
+    'Action' => 
+    array (
+      '00c417eea86cb2f95c3a737c5f249842' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 
+        array (
+          0 => 'namespace',
+          1 => 'controller',
+        ),
+        'class' => 'modAction',
+        'object' => '{"id":1,"namespace":"redirector","controller":"controllers\\/index","haslayout":1,"lang_topics":"redirector:default","assets":"","help_url":"","parent":0}',
+        'guid' => '087a69e2e2839d09b27f4eb1734d78ea',
+        'native_key' => 1,
+        'signature' => 'a7f9f17398566b73c76ec28ea8023100',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'Action' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 
+      array (
+        0 => 'namespace',
+        1 => 'controller',
+      ),
+    ),
+  ),
+  'namespace' => 'redirector',
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"redirector-2.0.7-pl\\/modMenu\\/9562a766384ec67d63f8862006eb7e5c.resolve.tables.resolver","type":"php","name":"resolve.tables"}',
+    ),
+    1 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"redirector-2.0.7-pl\\/modMenu\\/9562a766384ec67d63f8862006eb7e5c.resolve.dbchanges.resolver","type":"php","name":"resolve.dbchanges"}',
+    ),
+  ),
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '438cc11a2f5528c14ad2771434a5c7bd',
+  'package' => 'modx',
+  'class' => 'modMenu',
+  'signature' => '9562a766384ec67d63f8862006eb7e5c',
+  'native_key' => 'redirector',
+  'object' => '{"text":"redirector","parent":"components","action":1,"description":"redirector.menu_desc","icon":"images\\/icons\\/plugin.gif","menuindex":0,"params":"","handler":"","permissions":"","namespace":"core"}',
+);

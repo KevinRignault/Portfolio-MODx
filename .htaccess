@@ -1,0 +1,32 @@
+# MODX supports Friendly URLs via this .htaccess file. You must serve web
+# pages via Apache with mod_rewrite to use this functionality, and you must
+# change the file name from ht.access to .htaccess.
+#
+# Make sure RewriteBase points to the directory where you installed MODX.
+# E.g., "/modx" if your installation is in a "modx" subdirectory.
+#
+# You may choose to make your URLs non-case-sensitive by adding a NC directive
+# to your rule: RewriteRule ^(.*)$ index.php?q=$1 [L,QSA,NC]
+
+# REWRITE ACTIVE
+RewriteEngine On
+RewriteBase /portfolio/
+
+
+# CUSTOM REWRITE
+#
+
+# REWRITE TIMTHUMBS
+#
+# [QSA] Query String Allow
+# [L] 	Last
+#
+RewriteRule ^assets/templates/php/thumb.php/src=(.*)$ assets/templates/php/thumb.php?src=$1 [QSA,L]
+
+
+# FRIENDLY URL
+#
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?q=$1 [L,QSA]
+

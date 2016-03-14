@@ -1,0 +1,1 @@
+<p class="search-results-infos">[[%sisea.no_results? &query=`[[+query]]`]]</p>
